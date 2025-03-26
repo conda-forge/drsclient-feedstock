@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.3.0" %}
 
 package:
   name: drsclient
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/drsclient/drsclient-{{ version }}.tar.gz
-  sha256: 679061eacfb04f7fdccf709924f03b907af024481eb4c9ff123d87080cf4f344
+  sha256: bf1e53ad1e651cfd206f33bf1455eb12c505970ed81dea02c32c9e40a26d83a0
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - requests
-    - httpx >=0.23.0,<0.24.0
+    - httpx >=0.27.0,<0.28.0
     - backoff >=1.10.0,<2.0.0
 
 test:
