@@ -9,7 +9,7 @@ source:
   sha256: bf1e53ad1e651cfd206f33bf1455eb12c505970ed81dea02c32c9e40a26d83a0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: |
     sed -i '/asyncio/d' pyproject.toml  # remove unneeded dependency
