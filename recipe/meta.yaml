@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.2" %}
 
 package:
   name: drsclient
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/drsclient/drsclient-{{ version }}.tar.gz
-  sha256: bf1e53ad1e651cfd206f33bf1455eb12c505970ed81dea02c32c9e40a26d83a0
+  sha256: a3e97362d7dd2fc64ffbf265a11d99dafad7b7e5ef9d0e1fcab8f97f555eb662
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: |
     sed -i '/asyncio/d' pyproject.toml  # remove unneeded dependency
