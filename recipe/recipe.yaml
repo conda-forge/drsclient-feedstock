@@ -26,6 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - requests
+    - setuptools
     - httpx >=0.28.0
     - backoff >=1.10.0,<2.0.0
 
