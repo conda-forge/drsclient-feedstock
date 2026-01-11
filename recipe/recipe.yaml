@@ -1,5 +1,6 @@
 context:
-  version: 0.3.2
+  version: "0.4.0"
+  python_min: 3.13
 
 package:
   name: drsclient
@@ -7,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/drsclient/drsclient-${{ version }}.tar.gz
-  sha256: a3e97362d7dd2fc64ffbf265a11d99dafad7b7e5ef9d0e1fcab8f97f555eb662
+  sha256: b8fbffbe23fe4e9722f9c511821b7d0c79c8a1ada5a54557e1a0a138894a9422
 
 build:
   number: 0
